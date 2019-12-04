@@ -5,7 +5,14 @@ That is the public repo of the api and other file included with all DockerFile a
 
 /!\ YOU DONT NEED TO HAVE DOCKER OR DOCKER-COMPOSE FOR NOW /!\
 
-#Without Docker
+# With docker 
+If you use docker you just have to make:
+```bash
+docker-compose build
+docker-compose run
+```
+
+# Without Docker
 
 ## Installation
 
