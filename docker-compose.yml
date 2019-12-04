@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  projects_api:
+    build: ./projects_api
+    ports:
+      - "5000:5000"
+    networks:
+      - kickstarter
+
+networks:
+  kickstarter:
