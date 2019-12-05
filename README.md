@@ -1,5 +1,7 @@
 # QStarter
-[![N|Solid](https://img.shields.io/badge/docker%20build-automated-066da5?style=for-the-badge)](https://nodesource.com/products/nsolid) [![N|Solid](https://img.shields.io/github/license/DoctorWhoFR/KickStarter?style=for-the-badge)](https://nodesource.com/products/nsolid) 
+[![N|Solid](https://img.shields.io/badge/docker%20build-automated-066da5?style=for-the-badge)](https://nodesource.com/products/nsolid) [![N|Solid](https://img.shields.io/github/license/DoctorWhoFR/KickStarter?style=for-the-badge)](https://nodesource.com/products/nsolid)
+
+
 👀 **QStarter is a starter project for my current personnel project of an KickStarter application with customs features.
 That is the public repo of the api and other file included with all DockerFile and docker-compose.**
 
@@ -19,6 +21,13 @@ docker-compose build
 docker-compose run
 ```
 
+## Usage:
+*Refer to postman documentation api for route instruction.*
+
+### SERVER AUTHENTIFICATION API *[DEFAULT RUN PORT: 5001]*
+
+### SERVER PROJETS API *[DEFAULT RUN PORT: 5000]*
+
 # Without Docker
 
 ## Installation
@@ -34,12 +43,17 @@ pip install simplejson
 ```
 
 ## Usage
+Run server api command:
 
-To run the server execute this command
+### PROJETS API *[PORT: 5000]*: 
 ```python
-python main.py
+python projets_api/main.py
 ```
 
+### AUTHENTIFICATION API *[PORT: 5001]*: 
+```python
+python projets_api/main.py
+```
 You can also seed the database with realy dump data with
 ```python
 python seeder.py
