@@ -18,7 +18,7 @@ docker-compose build
 docker-compose run
 ```
 
-##Usage:
+## Usage:
 *Refer to postman documentation api for route instruction.*
 
 ### SERVER AUTHENTIFICATION API *[DEFAULT RUN PORT: 5001]*
