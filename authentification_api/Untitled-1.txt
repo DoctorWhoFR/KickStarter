@@ -1,0 +1,6 @@
+  projects_api:
+    build: ./projects_api
+    ports:
+      - "5000:5000"
+    networks:
+      - kickstarter
