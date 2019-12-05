@@ -1,5 +1,7 @@
 # QStarter
-[![N|Solid](https://img.shields.io/badge/docker%20build-automated-066da5?style=for-the-badge)](https://nodesource.com/products/nsolid) [![N|Solid](https://img.shields.io/github/license/DoctorWhoFR/KickStarter?style=for-the-badge)](https://nodesource.com/products/nsolid) 
+[![N|Solid](https://img.shields.io/badge/docker%20build-automated-066da5?style=for-the-badge)](https://nodesource.com/products/nsolid) [![N|Solid](https://img.shields.io/github/license/DoctorWhoFR/KickStarter?style=for-the-badge)](https://nodesource.com/products/nsolid)
+
+
 👀 **QStarter is a starter project for my current personnel project of an KickStarter application with customs features.
 That is the public repo of the api and other file included with all DockerFile and docker-compose.**
 
