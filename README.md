@@ -18,6 +18,13 @@ docker-compose build
 docker-compose run
 ```
 
+##Usage:
+*Refer to postman documentation api for route instruction.*
+
+### SERVER AUTHENTIFICATION API *[DEFAULT RUN PORT: 5001]*
+
+### SERVER PROJETS API *[DEFAULT RUN PORT: 5000]*
+
 # Without Docker
 
 ## Installation
@@ -33,12 +40,17 @@ pip install simplejson
 ```
 
 ## Usage
+Run server api command:
 
-To run the server execute this command
+### PROJETS API *[PORT: 5000]*: 
 ```python
-python main.py
+python projets_api/main.py
 ```
 
+### AUTHENTIFICATION API *[PORT: 5001]*: 
+```python
+python projets_api/main.py
+```
 You can also seed the database with realy dump data with
 ```python
 python seeder.py
