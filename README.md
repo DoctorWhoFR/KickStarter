@@ -5,9 +5,12 @@ That is the public repo of the api and other file included with all DockerFile a
 
 /!\ YOU DONT NEED TO HAVE DOCKER OR DOCKER-COMPOSE FOR NOW /!\
 
-# POSTMAN DOCUMENTATION API
+# DOCUMENTATION 
 All informations you need are on this postman documentation:
 https://documenter.getpostman.com/view/2899395/SWE3czHV?version=latest
+
+You can also add QStarter collection in your postman app using:
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e2bff263ee98ead63e8c)
 
 # With docker 
 If you use docker you just have to make:
